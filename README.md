@@ -42,7 +42,7 @@ This game uses Godot Engine Version 4.1.1 as the base of development.
 
 ## ความต้องการขั้นต่ำของระบบ
 
-ีระบบปฏิบัติการ: Windows 7 64-bit หรือสูงกว่า\
+ระบบปฏิบัติการ: Windows 7 64-bit หรือสูงกว่า\
 ซีพียู: ซีพียู 64 บิต (ที่รองรับ AMD64 หรือ x86-64) (Intel Pentium Dual-Core หรือสูงกว่า หรือ Pentium 4 บางรุ่นที่มี 64-บิต, AMD Athlon 64 หรือสูงกว่า)\
 แรม: 1GB หรือสูงกว่า\
 หน่วยประมวลผลกราฟิก: การ์ดแสดงผลที่รองรับ Vulkan (NVIDIA Geforce GTX 600 series หรือสูงกว่า, AMD Radeon HD 7730 หรือสูงกว่า, AMD Radeon R7 240 หรือสูงกว่า, Intel Skylake iGPU หรือสูงกว่า)\
