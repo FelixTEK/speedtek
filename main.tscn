@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://4ybwp2dypqsx"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_cfcsr"]
+[ext_resource type="Texture2D" uid="uid://d0gwhbjgurjed" path="res://res/pictures/FelixTEKChannel.png" id="2_lmbma"]
+[ext_resource type="AudioStream" uid="uid://bw36b7tj6cjfl" path="res://res/vgm/dubhub.mp3" id="3_x7c8q"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_cfcsr")
+
+[node name="Play" type="Button" parent="."]
+top_level = true
+offset_left = 445.0
+offset_top = 193.0
+offset_right = 783.0
+offset_bottom = 250.0
+text = "Play | Играть | เล่นเกม"
+
+[node name="Quit" type="Button" parent="."]
+top_level = true
+offset_left = 444.0
+offset_top = 470.0
+offset_right = 782.0
+offset_bottom = 527.0
+text = "Exit | Выход |ออกเกม"
+
+[node name="bg" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(640, 360)
+scale = Vector2(0.666667, 0.666667)
+texture = ExtResource("2_lmbma")
+
+[node name="bgm" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_x7c8q")
+volume_db = 10.0
+autoplay = true
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
