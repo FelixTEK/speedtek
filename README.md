@@ -26,6 +26,12 @@ Storage: 512MB available disk space
 
 This game uses Godot Engine Version 4.1.1 as the base of development.
 
+## Music Credits
+
+This game uses following music.\
+Jeremy Blake - Powerup!\
+Jimmy Fontanez - Dub Hub
+
 ## ภาษาไทย
 
 วิงสู้ฟัด! วิ่งๆๆๆ! ไปให้สุดแรงเลยพี่น้อง!\
@@ -51,4 +57,10 @@ This game uses Godot Engine Version 4.1.1 as the base of development.
 ## แอปพลิเคชันนี้พัฒนาต่ออย่างไร
 
 เกมนี้ใช้ Godot Engine เวอร์ชั่น 4.1.1 เป็นฐานในการพัฒนา
+
+## การให้เครดิตเพลง
+
+เกมนี้ใช้เพลงทั้งหมดดังนี้\
+Jeremy Blake - Powerup!\
+Jimmy Fontanez - Dub Hub
 
