@@ -109,6 +109,7 @@ shape = SubResource("CapsuleShape2D_sfiau")
 [node name="jump" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(-109, -90)
 stream = ExtResource("3_dfafk")
+volume_db = -10.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
 limit_left = 0

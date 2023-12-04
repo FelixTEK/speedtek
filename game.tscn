@@ -547,7 +547,7 @@ collision_layer = 0
 collision_mask = 2
 
 [node name="Grass" type="CollisionShape2D" parent="TileMap/StaticBody2D/Grass3"]
-position = Vector2(176.5, 239.75)
+position = Vector2(176, 240.25)
 shape = SubResource("RectangleShape2D_hpxjc")
 
 [node name="Grass4" parent="TileMap/StaticBody2D" instance=ExtResource("3_42hho")]
@@ -591,7 +591,7 @@ shape = SubResource("RectangleShape2D_omjk7")
 
 [node name="bgm" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_2qrnc")
-volume_db = 5.0
+volume_db = -5.0
 autoplay = true
 max_distance = 65535.0
 attenuation = 1e-05
