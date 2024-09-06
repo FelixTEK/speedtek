@@ -589,13 +589,6 @@ shape = SubResource("RectangleShape2D_n6mlg")
 position = Vector2(-14, -233)
 shape = SubResource("RectangleShape2D_omjk7")
 
-[node name="bgm" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_2qrnc")
-volume_db = -5.0
-autoplay = true
-max_distance = 65535.0
-attenuation = 1e-05
-
 [node name="Player" parent="." instance=ExtResource("5_2to2m")]
 z_index = 10
 position = Vector2(27, 188)
@@ -650,5 +643,13 @@ theme_override_fonts/font = ExtResource("8_neg6a")
 theme_override_font_sizes/font_size = 36
 text = "Test"
 script = SubResource("GDScript_ssqsd")
+
+[node name="bgm" type="AudioStreamPlayer2D" parent="UI/timer"]
+position = Vector2(-15, 1203)
+stream = ExtResource("4_2qrnc")
+volume_db = -5.0
+autoplay = true
+max_distance = 65535.0
+attenuation = 1e-05
 
 [connection signal="body_entered" from="Cherry" to="Cherry" method="_on_body_entered"]
